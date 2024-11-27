@@ -1,0 +1,98 @@
+/* General Styling */
+body {
+    background-color: #1b1b32; 
+    color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #ffd700;
+    text-shadow: 0px 0px 10px #ffd700;
+  }
+  
+  .move-icon {
+    height: 80px;
+    transition: transform 0.3s ease;
+  }
+  
+  .move-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  .move-button {
+    background-color: transparent;
+    border: 3px solid #ffd700;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .move-button:hover {
+    background-color: #ffd700;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffd700;
+  }
+  
+  .result {
+    font-size: 28px;
+    margin-top: 40px;
+    color: #f0f0f0;
+  }
+  
+  .js-moves {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .score {
+    font-size: 22px;
+    margin-top: 50px;
+  }
+  
+  .reset-score-btn, .auto-play-btn {
+    background-color: #ffd700;
+    color: #1b1b32;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reset-score-btn:hover, .auto-play-btn:hover {
+    background-color: #e6b800;
+  }
+  
+
+  .js-result {
+    font-size: 25px;
+  }
+  
+  .js-moves, .js-score {
+    font-size: 22px;
+  }
+
+  .auto-play-btn {
+    
+  }
+  
